@@ -1,0 +1,17 @@
+body, html {
+height: 100%;
+width: 100%;
+}
+
+.bgi {
+    height: 100%;
+    width: 100%;
+    background-image: url("../images/background.jpg");
+    background-size: 100% 100%;
+}
+
+.gamecontainer {
+    margin: 18% 10% 0% 10%;
+    height: 61%;
+    width: 85%;
+}
