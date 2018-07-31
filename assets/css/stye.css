@@ -18,7 +18,7 @@ width: 100%;
 
 #gamecard {
     position: inherit;
-    margin: 10% 25% 0% 25%;
+    margin: 20% 25% 0% 23%;
     height: 60%;
     width: 50%;
     font-weight: bolder;
@@ -32,4 +32,30 @@ width: 100%;
     text-align: center;
     background-image: url("../images/cardbackground.jpg");
     background-size: 100% 100%;
+}
+
+#qheader {
+    font-weight: bolder;
+    font-size: 28px;
+}
+
+#qheader2 {
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+#answer {
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+#answer:hover {
+    background-color: blue;
+}
+
+#gif {
+    height: 250px;
+    width: 480px;
+    margin: 5% 20% 0% 20%;
 }
