@@ -71,10 +71,6 @@ var gameo = {
 
             $(".gamecontainer").append(form);
             sbutton.on("click", gameo.startGamme);
-            
-
-            //gameo.addEvents();
-
         } catch (error) {
             console.error(error);
         }
@@ -215,14 +211,6 @@ var gameo = {
             break;
         }
 
-    },
-    addEvents: function(){
-        try {
-            $(document).on("click", "#startbutton", gameo.startGame);
-            $(document).on("click", "#answer", gameo.makeGuess);   
-        } catch(error) {
-            console.error((error));
-        }
     },
     startGamme: function(event){
         try {
